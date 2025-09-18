@@ -48,11 +48,11 @@ class Bot(Client):
         except Exception as e:
             self.LOGGER(__name__).warning(e)
             self.LOGGER(__name__).warning(f"Make Sure bot is Admin in DB Channel, and Double check the CHANNEL_ID Value, Current Value {CHANNEL_ID}")
-            self.LOGGER(__name__).info("\nBot Stopped. Join https://t.me/rjbots2025 for support")
+            self.LOGGER(__name__).info("\nBot Stopped. Join https://t.me/RJ_BOTS_2024 for support")
             sys.exit()
 
         self.set_parse_mode(ParseMode.HTML)
-        self.LOGGER(__name__).info(f"Bot Running..!\n\nCreated by \nhttps://t.me/rjbots2025")
+        self.LOGGER(__name__).info(f"Bot Running..!\n\nCreated by \nhttps://t.me/RJ_BOTS_2024")
         self.LOGGER(__name__).info(f"""BOT DEPLOYED BY @RJ_BOTS_2024""")
 
         self.set_parse_mode(ParseMode.HTML)
